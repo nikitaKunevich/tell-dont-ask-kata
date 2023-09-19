@@ -1,12 +1,12 @@
 import pytest
 
-from python.src.domain.order import Order
-from python.src.domain.order_status import OrderStatus
-from python.src.use_case.exceptions import OrderCannotBeShippedException, OrderCannotBeShippedTwiceException
-from python.src.use_case.order_shipment_request import OrderShipmentRequest
-from python.src.use_case.order_shipment_use_case import OrderShipmentUseCase
-from python.test.doubles.test_order_repository import TestOrderRepository
-from python.test.doubles.test_shipment_service import TestShipmentService
+from domain.order import Order
+from domain.order_status import OrderStatus
+from use_case.exceptions import OrderCannotBeShippedException, OrderCannotBeShippedTwiceException
+from use_case.order_shipment_request import OrderShipmentRequest
+from use_case.order_shipment_use_case import OrderShipmentUseCase
+from doubles.test_order_repository import TestOrderRepository
+from doubles.test_shipment_service import TestShipmentService
 
 
 class TestOrderShipmentUseCase:

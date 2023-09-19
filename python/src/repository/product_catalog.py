@@ -2,7 +2,7 @@
 
 from abc import abstractmethod, ABC
 
-from ..domain.product import Product
+from domain.product import Product
 
 
 class ProductCatalog(ABC):

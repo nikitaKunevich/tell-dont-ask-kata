@@ -1,4 +1,4 @@
-from ...src.repository.order_repository import OrderRepository
+from repository.order_repository import OrderRepository
 
 
 class TestOrderRepository(OrderRepository):

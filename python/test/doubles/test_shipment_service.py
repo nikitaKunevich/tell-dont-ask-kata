@@ -1,4 +1,4 @@
-from ...src.service.shipment_service import ShipmentService
+from service.shipment_service import ShipmentService
 
 
 class TestShipmentService(ShipmentService):

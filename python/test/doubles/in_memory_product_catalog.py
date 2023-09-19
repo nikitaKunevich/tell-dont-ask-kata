@@ -1,4 +1,4 @@
-from ...src.repository.product_catalog import ProductCatalog
+from repository.product_catalog import ProductCatalog
 
 
 class InMemoryProductCatalog(ProductCatalog):

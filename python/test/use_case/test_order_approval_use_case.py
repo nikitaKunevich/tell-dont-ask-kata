@@ -1,12 +1,12 @@
 import pytest
 
-from python.src.domain.order import Order
-from python.src.domain.order_status import OrderStatus
-from python.src.use_case.exceptions import ApprovedOrderCannotBeRejectedException, \
+from domain.order import Order
+from domain.order_status import OrderStatus
+from use_case.exceptions import ApprovedOrderCannotBeRejectedException, \
     ShippedOrdersCannotBeChangedException, RejectedOrderCannotBeApprovedException
-from python.src.use_case.order_approval_request import OrderApprovalRequest
-from python.src.use_case.order_approval_use_case import OrderApprovalUseCase
-from python.test.doubles.test_order_repository import TestOrderRepository
+from use_case.order_approval_request import OrderApprovalRequest
+from use_case.order_approval_use_case import OrderApprovalUseCase
+from doubles.test_order_repository import TestOrderRepository
 
 
 class TestOrderApprovalUseCase:

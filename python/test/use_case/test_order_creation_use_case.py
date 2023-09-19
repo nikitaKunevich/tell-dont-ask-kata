@@ -1,14 +1,14 @@
 import pytest
 
-from python.src.domain.category import Category
-from python.src.domain.order_status import OrderStatus
-from python.src.domain.product import Product
-from python.src.use_case.exceptions import UnknownProductException
-from python.src.use_case.order_creation_use_case import OrderCreationUseCase
-from python.src.use_case.sell_item_request import SellItemRequest
-from python.src.use_case.sell_items_request import SellItemsRequest
-from python.test.doubles.in_memory_product_catalog import InMemoryProductCatalog
-from python.test.doubles.test_order_repository import TestOrderRepository
+from domain.category import Category
+from domain.order_status import OrderStatus
+from domain.product import Product
+from use_case.exceptions import UnknownProductException
+from use_case.order_creation_use_case import OrderCreationUseCase
+from use_case.sell_item_request import SellItemRequest
+from use_case.sell_items_request import SellItemsRequest
+from doubles.in_memory_product_catalog import InMemoryProductCatalog
+from doubles.test_order_repository import TestOrderRepository
 
 
 class TestOrderCreationUseCase:
